@@ -1,0 +1,471 @@
+{
+  "herosection": {
+    "title": "From Ideology to Practice",
+    "description": "Every project is born from a concept — and comes to life when\ntransformed into reality.",
+    "seePortfolio": "View Portfolio",
+    "ariaLabel": "Hero section of the portfolio"
+  },
+
+  "profile": {
+    "title": "Developer Profile",
+    "subtitle": "FullStack Developer & Designer focused on creating innovative digital experiences, passionate about clean code, design, and technology.",
+    "greeting": "Morning!",
+    "role": "FullStack Developer & Designer",
+    "bio": "I'm Victor, I'm 18 years old and I love creating unique and creative solutions, simple and with a significant impact. I work with front-end using React, Next.js, TypeScript, and Tailwind, and I really enjoy turning wireframes into live interfaces, with both aesthetics and functionality.\nBesides programming and design, I also study marketing and languages. My goal is to launch my own projects, like SaaS and e-books, and make the CenterCafé community grow more and more. I like to understand people's perspectives and use that to create something that truly stands out.",
+    "experiences": [
+      { "years": "1+", "title": "Years as Dev" },
+      { "years": "2+", "title": "Completed Projects" },
+      { "years": "7+", "title": "Mastered Stacks" }
+    ]
+  },
+
+  "projectsProfile": {
+    "sectionLabel": "Recent Projects",
+    "title": "Recent Projects",
+    "subtitle": "Highlights of projects developed with a focus on experience, technology, and real results.",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "results": "Results",
+    "description": "Description",
+    "role": "My Role",
+    "status": {
+      "development": "In development",
+      "done": "Completed"
+    },
+    "soon": "Coming soon",
+    "access_project": "View project",
+    "projects_nav": "Project navigation",
+    "see_project": "See project:",
+    "projects": [
+      {
+        "title": "DHeroCorp",
+        "subtitle": "Design, Programming and Digital Products Solutions",
+        "description": "Company dedicated to offering personalized UI/UX design and web development services, as well as a growing line of digital products that meet various modern market needs.",
+        "challenge": "Demonstrate the breadth and quality of services, building a strong visual identity and intuitive interfaces that please the client experience.",
+        "solution": "Development of a responsive website with React and Next.js, using TypeScript to ensure scalability and maintenance. Creation of a striking visual identity and integration of tools that enhance communication and interaction with the public.",
+        "role": "UI/UX Designer & Full-Stack Developer",
+        "results": "Greater brand recognition, increased customer engagement, and establishment of a solid foundation for expanding products and services.",
+        "technologies": ["React", "Next.js", "TypeScript", "Figma", "Discord.js"],
+        "icon": "Layers",
+        "gradient": "bg-gradient-to-r from-purple-800 via-pink-900 to-gray-900",
+        "status": "development",
+        "link": "https://dherocorp.com"
+      },
+      {
+        "title": "CenterCafé",
+        "subtitle": "Discord Community",
+        "description": "CenterCafé is a community made to connect people on Discord, focused on networking, knowledge sharing, and events.",
+        "challenge": "Revitalize the server, promoting a welcoming and inclusive environment where everyone feels comfortable to participate, regardless of area or interest — despite recent drops in activity.",
+        "solution": "To revive the server, we are planning to restructure channels, strengthen the moderation team, and organize events to ensure a safe, organized, and welcoming environment for all.",
+        "role": "Community Manager",
+        "results": "Constant growth of the member base, high participation in activities, and strengthening of community bonds.",
+        "technologies": [],
+        "icon": "User",
+        "gradient": "bg-gradient-to-r from-indigo-800 via-purple-900 to-gray-900",
+        "status": "done",
+        "link": "https://disboard.org/pt-br/server/join/1061343817778860173"
+      }
+    ]
+  },
+
+  "services": {
+    "sectionLabel": "Professional Services",
+    "title": "Professional Services",
+    "subtitle": "Complete digital solutions focused on user experience, performance, and conversion. Select a service to see details.",
+    "custom_solutions": "Custom Solutions for Your Business",
+    "tabs": {
+      "visao": "OVERVIEW",
+      "processo": "PROCESS",
+      "precos": "PRICING",
+      "portfolio": "PORTFOLIO"
+    },
+    "see_pricing": "See Pricing & Packages",
+    "see_plans": "See Plans & Investment",
+    "tech_used": "Technologies Used",
+    "all_packages": "All packages include alignment meetings, on-time delivery, and post-launch support for adjustments. Custom projects are available for specific needs.",
+    "contact_for_eval": "Contact us for a detailed project evaluation.",
+    "portfolio_intro": "Check out some recent projects developed with a focus on performance, user experience, and business results.",
+    "most_popular": "Most Popular",
+    "portfolio_empty": "No projects registered in this category yet.",
+    "serviceData": {
+      "serviceDetails": [
+        {
+          "id": 0,
+          "icon": "Code",
+          "title": "Front-end Development",
+          "description": "I turn ideas into modern, responsive, and high-performance interfaces using React and Next.js to create smooth and impactful user experiences.",
+          "features": [
+            "Responsive websites and web apps optimized for all devices",
+            "Smooth animations and interactions with Framer Motion and GSAP",
+            "Modern SPAs built with React, Next.js, and TypeScript",
+            "RESTful API integration for dynamic content",
+            "Optimized performance, fast loading, and SEO-ready structure",
+            "Basic accessibility practices to reach all users"
+          ],
+          "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "GSAP", "Framer Motion"]
+        },
+        {
+          "id": 1,
+          "icon": "PenTool",
+          "title": "UI/UX Design",
+          "description": "I design intuitive and visually appealing interfaces focused on user experience, aligning your brand identity with clean, functional visuals.",
+          "features": [
+            "Custom visual design for up to 5 screens",
+            "Basic style guide creation for visual consistency",
+            "Responsive layouts for both mobile and desktop",
+            "Editable files delivered via Figma",
+            "Exported assets optimized for development",
+            "Up to 2 rounds of revision based on feedback",
+            "Support for implementing the visual design in code"
+          ],
+          "technologies": ["Figma", "Photoshop", "Prototyping"]
+        },
+        {
+          "id": 2,
+          "icon": "Database",
+          "title": "Full-Stack Development",
+          "description": "I build complete applications from front to back with a focus on performance, scalability, and user experience, using modern and efficient technologies.",
+          "features": [
+            "Complete structure for modern web applications",
+            "REST API development with basic authentication",
+            "PostgreSQL database with organized modeling",
+            "Integration with third-party services via API",
+            "Simple admin panels for content management",
+            "Optimized deployment using Vercel or similar platforms"
+          ],
+          "technologies": ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "Vercel"]
+        }
+      ],
+      "processStepsByService": {
+        "Front-end Development": [
+          {
+            "number": 1,
+            "icon": "Users",
+            "title": "Technical Briefing",
+            "description": "Meeting to understand technical needs, features, and interface goals.",
+            "details": "Detailed analysis of project requirements, visual and functional expectations, aligning both project needs and user demands to define the front-end development scope."
+          },
+          {
+            "number": 2,
+            "icon": "LayoutGrid",
+            "title": "Project Structure",
+            "description": "Organization of the project foundation: components, navigation, and interface flow.",
+            "details": "Planning the project architecture, choosing tools (such as modern frameworks), organizing components, and managing data flow."
+          },
+          {
+            "number": 3,
+            "icon": "Monitor",
+            "title": "Functional Prototype",
+            "description": "Development of initial component versions to validate ideas and interactions.",
+            "details": "Creation of early prototypes to test usability and interaction, ensuring the concept works before final development."
+          },
+          {
+            "number": 4,
+            "icon": "Code",
+            "title": "Interface Development",
+            "description": "Building the interface with a focus on structure, code reuse, and modern visuals.",
+            "details": "Implementation of interface elements, prioritizing code maintainability, best practices, and performance for a consistent user experience."
+          },
+          {
+            "number": 5,
+            "icon": "Server",
+            "title": "Adjustments and Testing",
+            "description": "Performing tests and refinements to ensure proper functionality across devices and browsers.",
+            "details": "Validation of compatibility, responsiveness, and performance to deliver a seamless experience across platforms."
+          },
+          {
+            "number": 6,
+            "icon": "Smartphone",
+            "title": "Launch and Support",
+            "description": "Project launch and support for any necessary fixes or improvements.",
+            "details": "Deployment of the application in a live environment, with ongoing support to resolve issues and implement enhancements."
+          }
+        ],
+        "UI/UX Design": [
+          {
+            "number": 1,
+            "icon": "Users",
+            "title": "User Research",
+            "description": "Understanding the target audience, their needs, and challenges to guide the design process.",
+            "details": "Interviews and research to identify user pain points and expectations, helping shape an effective user experience."
+          },
+          {
+            "number": 2,
+            "icon": "LayoutGrid",
+            "title": "Wireframes and Flows",
+            "description": "Building the structural layout and user navigation paths.",
+            "details": "Design of wireframes that organize content and define the user journey through the interface."
+          },
+          {
+            "number": 3,
+            "icon": "PenTool",
+            "title": "Visual Design",
+            "description": "Defining the visual style: colors, typography, icons, and product identity.",
+            "details": "Creation of a cohesive aesthetic aligned with the brand, ensuring a consistent visual language throughout the product."
+          },
+          {
+            "number": 4,
+            "icon": "Monitor",
+            "title": "Interactive Prototype",
+            "description": "Creating a functional simulation to test navigation and appearance.",
+            "details": "Development of clickable prototypes to validate interaction and layout before implementation."
+          },
+          {
+            "number": 5,
+            "icon": "Layers",
+            "title": "Usability Testing",
+            "description": "Testing with users to identify areas for improvement.",
+            "details": "Analysis of how users interact with the prototype to detect confusion or friction points and optimize the design accordingly."
+          },
+          {
+            "number": 6,
+            "icon": "ChevronRight",
+            "title": "Final Delivery",
+            "description": "Documentation and file preparation for development handoff.",
+            "details": "Providing organized design files and clear guidelines to ensure proper implementation by the development team."
+          }
+        ],
+        "Full-Stack Development": [
+          {
+            "number": 1,
+            "icon": "Users",
+            "title": "Project Definition",
+            "description": "Aligning technical and functional requirements for both front-end and back-end.",
+            "details": "Comprehensive understanding of the project, defining technologies and features needed for the system."
+          },
+          {
+            "number": 2,
+            "icon": "Database",
+            "title": "Database Planning",
+            "description": "Structuring the database to organize and store information efficiently.",
+            "details": "Development of the data model, defining relationships and access methods focused on performance and security."
+          },
+          {
+            "number": 3,
+            "icon": "Server",
+            "title": "Back-end Development",
+            "description": "Building the system logic that processes data and communicates with the database.",
+            "details": "Implementation of business rules, security, and integration with external services to ensure system functionality."
+          },
+          {
+            "number": 4,
+            "icon": "Code",
+            "title": "Front-end Development",
+            "description": "Creating the visual interface integrated with system features.",
+            "details": "Implementation of the user interface, ensuring efficient communication between front-end and back-end."
+          },
+          {
+            "number": 5,
+            "icon": "Monitor",
+            "title": "Complete Testing",
+            "description": "Testing the entire system to ensure proper and integrated operation.",
+            "details": "Validation of system performance, stability, and functionality under real usage scenarios."
+          },
+          {
+            "number": 6,
+            "icon": "Layers",
+            "title": "Deployment and Monitoring",
+            "description": "Releasing the system to production and providing continuous monitoring.",
+            "details": "Making the system available to users and monitoring for maintenance, bug fixes, and updates as needed."
+          }
+        ]
+      },
+      "pricingPlansByService": {
+        "Front-end Development": [
+          {
+            "title": "Landing Page",
+            "price": "$560",
+            "subtitle": "Single Project",
+            "features": [
+              "1 page optimized for conversion",
+              "Responsive layout for all devices",
+              "Delivery in 7 business days",
+              "Basic SEO included",
+              "Animations and interactivity",
+              "Google Analytics integration",
+              "Functional contact form",
+              "1 free revision after delivery"
+            ],
+            "buttonText": "Hire Now",
+            "popular": false
+          },
+          {
+            "title": "Interactive Website",
+            "price": "$1.140",
+            "subtitle": "Single Project",
+            "features": [
+              "Up to 5 responsive pages",
+              "Advanced animations with GSAP",
+              "Custom interactivity",
+              "Performance optimization",
+              "Advanced technical SEO",
+              "Integration with headless CMS",
+              "Cross-browser compatibility",
+              "30 days of technical support"
+            ],
+            "buttonText": "Hire Now",
+            "popular": true
+          },
+          {
+            "title": "SPA Application",
+            "price": "$1.980",
+            "subtitle": "Single Project",
+            "features": [
+              "Complete React/Vue/Angular frontend",
+              "Advanced component architecture",
+              "Integration with external APIs",
+              "Complex state management",
+              "Automated testing",
+              "Optimized performance",
+              "Optional PWA",
+              "60 days of technical support"
+            ],
+            "buttonText": "Request Proposal",
+            "popular": false
+          }
+        ],
+        "UI/UX Design": [
+          {
+            "title": "Essential UI",
+            "price": "$190",
+            "subtitle": "Single Project",
+            "features": [
+              "Visual design of up to 5 screens",
+              "Basic style guide",
+              "Responsive design (desktop/mobile)",
+              "Delivery in Figma format",
+              "Delivery in 10 business days",
+              "2 rounds of revision",
+              "Support for implementation",
+              "Asset export"
+            ],
+            "buttonText": "Hire Now",
+            "popular": false
+          },
+          {
+            "title": "Complete UX/UI",
+            "price": "$700",
+            "subtitle": "Single Project",
+            "features": [
+              "User research",
+              "Low-fidelity wireframes",
+              "Detailed user flows",
+              "Visual design of up to 12 screens",
+              "High-fidelity interactive prototype",
+              "Complete Design System",
+              "Usability testing",
+              "3 rounds of revision"
+            ],
+            "buttonText": "Hire Now",
+            "popular": true,
+            "active": false
+          },
+          {
+            "title": "Design System",
+            "price": "$1.380",
+            "subtitle": "Scalable Base",
+            "features": [
+              "Audit of existing design",
+              "Design tokens",
+              "Complete component library",
+              "Detailed documentation",
+              "Usage guides",
+              "Versions for multiple platforms",
+              "Reusable components",
+              "Implementation workshops"
+            ],
+            "buttonText": "Request Proposal",
+            "popular": false,
+            "active": false
+          }
+        ],
+        "Full-Stack Development": [
+          {
+            "title": "Essential MVP",
+            "price": "$1.580",
+            "subtitle": "Initial Project",
+            "features": [
+              "Basic front-end and back-end",
+              "Up to 5 main features",
+              "Optimized database",
+              "User authentication",
+              "Simplified UI/UX design",
+              "Implementation in 30 days",
+              "Initial hosting included",
+              "30 days of support"
+            ],
+            "buttonText": "Hire Now",
+            "popular": false
+          },
+          {
+            "title": "Complete Application",
+            "price": "$2.940",
+            "subtitle": "Robust Solution",
+            "features": [
+              "Scalable front and back architecture",
+              "Professional UI/UX design",
+              "Full authentication system",
+              "Admin dashboard",
+              "Integrations with external APIs",
+              "Performance optimization",
+              "Automated testing",
+              "90 days of post-launch support"
+            ],
+            "buttonText": "Hire Now",
+            "popular": true
+          },
+          {
+            "title": "Enterprise Solution",
+            "price": "Custom",
+            "subtitle": "Tailored Project",
+            "features": [
+              "Complete enterprise architecture",
+              "Microservices and API Gateway",
+              "Advanced authentication system",
+              "BI and analytical dashboards",
+              "Full DevOps infrastructure",
+              "CI/CD and automated deployment",
+              "Complete technical documentation",
+              "Training and continuous support"
+            ],
+            "buttonText": "Request Proposal",
+            "popular": false
+          }
+        ]
+      },
+      "portfolioByService": {
+        "Frontend Development": [],
+        "UI/UX Design": [],
+        "Full-Stack Development": [
+          {
+            "title": "DHeroCorp",
+            "type": "Full-Stack",
+            "description": "Institutional platform for the DHeroCorp brand, showcasing digital products, creative services, and integration with the CenterCafé community ecosystem and bots.",
+            "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Discord.js", "Figma"],
+            "active": true,
+            "status": "development",
+            "link": "https://dherocorp.com"
+          },
+          {
+            "title": "SOS Bom Humor",
+            "type": "Full-Stack",
+            "description": "Complete institutional website for the SOS Bom Humor Doutores Palhaços, a volunteer group from Ibirubá, RS, bringing joy and hope to patients in hospitals, nursing homes, and special education institutions across the region through theatrical performances and music.",
+            "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+            "active": true,
+            "status": "done",
+            "link": "https://sosbomhumor.org.br"
+          },
+          {
+            "title": "CenterCafé Bot",
+            "type": "Full-Stack",
+            "description": "Discord bot system for the CenterCafé community with moderation features, website integration, and a web-based admin panel under development.",
+            "technologies": ["Node.js", "Discord.js", "Next.js", "TypeScript"],
+            "active": false,
+            "status": "soon",
+            "link": ""
+          }
+        ]
+      }
+    }
+  }
+}
