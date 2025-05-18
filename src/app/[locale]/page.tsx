@@ -5,8 +5,6 @@ import Laterals_Portfolio from "../../components/laterais";
 import ProjectsProfile from "../../components/ProjectsProfile";
 import ServicesProfile from "../../components/ServicesProfile";
 import Image from "next/image";
-import {useTranslations} from 'next-intl';
-import {Link} from '@/i18n/navigation';
 
 export default function HomePage() {
   return (
