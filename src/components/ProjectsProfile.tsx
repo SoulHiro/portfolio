@@ -4,7 +4,6 @@ import { User, Lightbulb, Target, Code2, Layers, ChevronRight, Hourglass } from 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
-// Ícones mapeados para usar por nome no JSON
 const iconMap = {
   User,
   Lightbulb,
@@ -93,10 +92,11 @@ const ProjectsProfile = () => {
             variants={fadeInUp}
             className="md:w-1/3 flex flex-col items-center justify-center p-6 rounded-2xl bg-gradient-to-b md:bg-gradient-to-br from-indigo-900/80 to-purple-900/60 shadow-lg border-r border-indigo-800/40"
           >
+            
             <div className="mb-4" aria-hidden="true">
-              {/* O ícone vem da tradução, mas é resolvido aqui */}
               {React.createElement(project.icon, { size: 40, className: "text-purple-400" })}
             </div>
+            
             <h2 className="text-xl md:text-2xl font-bold mb-2 text-indigo-200 text-center">{project.title}</h2>
             <span className="bg-indigo-900/50 text-indigo-300 text-xs px-4 py-1 rounded-full mb-2">{project.subtitle}</span>
             {/* Badge de status */}
