@@ -48,13 +48,10 @@ const skills = [
 const Skills = () => {
   const [page, setPage] = useState(0)
 
-  // Define a Quantidade de Habilidades por página
   const skillsPerPage = 4
 
-  // Aqui estamos fazendo o cálculo para quantas páginas serão criadas
   const totalPages = Math.ceil(skills.length / skillsPerPage);
 
-  // Usando slice, iremos indicar quais skills serão mostradas
   const currentSkills = skills.slice(
     page * skillsPerPage, // Aqui indica o Início. Ex: 0 * 4 = 0
     page * skillsPerPage + skillsPerPage // Aqui indica o Fim. 0 * 4 + 4 = 4
