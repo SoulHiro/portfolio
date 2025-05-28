@@ -5,7 +5,6 @@ import '@/app/globals.css';
 const HeroSection: React.FC = () => {
   const t = useTranslations('herosection');
 
-  // Função para scroll suave até a próxima seção
   const handleScroll = (e: React.MouseEvent) => {
     e.preventDefault();
     const nextSection = document.getElementById('section-2');
@@ -23,6 +22,7 @@ const HeroSection: React.FC = () => {
         <h1 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 bg-gradient-to-r from-indigo-400 to-purple-400 text-transparent bg-clip-text drop-shadow-lg">
           {t('title')}
         </h1>
+        
         {/* Elemento decorativo (ponto) com linhas */}
         <div className="flex items-center justify-center my-4" aria-hidden="true">
           <div className="w-10 md:w-16 h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent"></div>
@@ -33,6 +33,7 @@ const HeroSection: React.FC = () => {
           {t('description')}
         </p>
       </header>
+      
       {/* Indicador de rolagem para baixo */}
       <button
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center group outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 rounded"
