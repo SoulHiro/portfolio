@@ -7,7 +7,6 @@ import {
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
-// Tipos para os dados do JSON
 type ServiceDetailJSON = {
   id: number;
   icon: string;
@@ -46,7 +45,6 @@ type ServiceDataJSON = {
   portfolioByService: Record<string, PortfolioProjectJSON[]>;
 };
 
-// Dicionário de ícones
 const iconMap = {
   Code,
   PenTool,
@@ -111,11 +109,9 @@ const ServicesProfile = () => {
   const currentProcessSteps = processStepsByService[currentService.title] || [];
   const currentPricingPlans = (data.pricingPlansByService[currentService.title] || []).filter((plan) => (plan as PricingPlanJSON).active !== false);
 
-  // Só mostra projetos ativos
   const currentPortfolioAll = data.portfolioByService[currentService.title] || [];
   const currentPortfolio = currentPortfolioAll.filter((p) => p.active);
 
-  // Renderiza o conteúdo da aba ativa
   const renderTabContent = () => {
     switch (activeTab) {
       case 'visao':
